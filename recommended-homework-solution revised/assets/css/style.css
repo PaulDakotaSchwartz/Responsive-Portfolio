@@ -237,3 +237,125 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+/*This is the CSS for a 980px screen, the elements are more centered in the example, and there is
+an exterior buffer around all of the content*/
+@media screen and (max-width: 980px)
+  { .main-section {
+    float: left;
+    width: 100%;
+    max-width: 420px;
+    padding: 30px;
+    margin: 5px 10px 40px 110px;
+    background: #fff;
+    border: 1px solid #ddd;
+    }
+    .auth-image {
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+    }
+    .sidebar {
+    float: right;
+    width: 100%;
+    max-width: 270px;
+    padding: 30px;
+    margin: 5px 110px 40px 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    }
+  }
+
+/*This is the CSS for a 768px screen, the elements are more centered in the example, and there is
+an exterior buffer around all of the content*/
+  @media screen and (max-width: 768px)
+  { .main-section {
+    float: none;
+    width: 100%;
+    max-width: 718px;
+    padding: 30px;
+    margin: 10px 10px 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+    }
+    .auth-image {
+    float: left;
+    width: 50%;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+    }
+    .sidebar {
+    float: left;
+    width: 100%;
+    max-width: 718px;
+    padding: 30px;
+    margin: 10px 10px 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+    }
+  }
+
+/*This is the CSS for a 640px screen, the elements are more centered in the example, and there is
+an exterior buffer around all of the content, the nav bar has been reformatted*/
+  @media screen and (max-width: 640px)
+  { #logo {
+    float: left;
+    width: 640px;
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+    }
+    nav {
+    /*float: center;*/
+    float:none;
+    margin-top: 25px;
+    }
+    .main-section {
+    float: none;
+    overflow: auto;
+    width: 100%;
+    max-width: 540px;
+    padding: 20px;
+    margin: 40px 30px 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    }
+    .auth-image {
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+    }
+    .work {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin: 20px 0 25px;
+    overflow: auto;
+    }
+    .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+    }
+    .sidebar {
+    float: left;
+    width: 100%;
+    max-width: 540px;
+    padding: 30px;
+    margin: 20px 30px 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+    }
+
+  }
